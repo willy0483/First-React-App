@@ -1,0 +1,9 @@
+@use './Components/footer/footer' as footer;
+@use './Components/header/header' as header;
+@use './Components/main/main' as main;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

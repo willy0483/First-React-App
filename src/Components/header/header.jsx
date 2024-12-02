@@ -1,9 +1,12 @@
+import NavbarComponent from "../navbar/navbar";
+
 const HeaderComponent  = () =>{
     return(
         <>
-        <div>
+        <header>     
             <h1>Header</h1>
-        </div>
+            {<NavbarComponent/>}   
+        </header>
         </>
     )
 }

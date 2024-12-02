@@ -1,4 +1,4 @@
-const mainComponent = () =>{
+const MainComponent = () =>{
     return (
         <div>
             <h1>Main Component</h1>
@@ -6,4 +6,4 @@ const mainComponent = () =>{
     )
 }
 
-export default mainComponent;
+export default MainComponent;
