@@ -1,0 +1,11 @@
+@use '../../Styles/variables' as var;
+
+.mainHeader{
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    justify-content: space-between;
+    h1{
+        color: var.$primary-color;
+    }
+}

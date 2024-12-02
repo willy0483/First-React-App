@@ -3,16 +3,14 @@
 
 const NavbarComponent = () =>{
     return(
-        <>
-        <nav>
+        <nav className="navbar">
             <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Services</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Services</a></li>
             </ul>
         </nav>
-        </>
     )
 }
 
