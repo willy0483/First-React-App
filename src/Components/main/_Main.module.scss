@@ -1,0 +1,18 @@
+@use '../../Styles/Variables' as var;
+
+.mainStyle {
+    background-color: var.$primary-color;
+    width: 700px;
+    margin: 10rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    .articleStyle {
+        color: var.$text-color;
+        text-align: center;
+        padding: 3rem;
+    }
+}

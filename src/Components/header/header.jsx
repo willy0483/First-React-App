@@ -2,8 +2,8 @@ import NavbarComponent from "../navbar/navbar";
 
 const HeaderComponent  = () =>{
     return(
-        <header className="mainHeader">     
-            <h1>Header</h1>
+        <header className="headerStyle">     
+            <h1 className="headerTitleStyle">Header</h1>
             <NavbarComponent/>   
         </header>
     )

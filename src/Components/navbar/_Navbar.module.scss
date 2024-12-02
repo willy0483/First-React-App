@@ -1,0 +1,15 @@
+@use '../../Styles/mixins' as mix;
+
+.navStyle{
+    .linkStyle{
+        display: flex;
+        li{
+            @include mix.reset-list;
+            padding: 1rem;
+            a{
+                @include mix.reset-a;
+                color: white;
+            }
+        }
+    }
+}

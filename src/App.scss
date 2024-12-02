@@ -1,16 +1,15 @@
-@use './Components/footer/footer' as footer;
-@use './Components/header/header' as header;
-@use './Components/main/main' as main;
+@use './Components/Header/Header.module.scss' as header;
+@use './Components/Main/Main.module.scss' as main;
+@use './Components/Footer/Footer.module.scss' as footer;
 
-@use './Components/navbar/navbar' as navbar;
-@use './Components/header/header' as mainHeader;
+@use './Components/Navbar/Navbar.module.scss' as navbar;
 
-@use './Styles/variables' as var;
+@use './Styles/Variables' as var;
+@use './Styles/Mixins' as mix;
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{

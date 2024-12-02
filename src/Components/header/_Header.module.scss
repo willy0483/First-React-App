@@ -1,11 +1,14 @@
 @use '../../Styles/variables' as var;
 
-.mainHeader{
+.headerStyle{
     display: flex;
     max-width: 900px;
     margin: 0 auto;
+    align-items: center;
     justify-content: space-between;
-    h1{
+
+
+    .headerTitleStyle{
         color: var.$primary-color;
     }
 }
