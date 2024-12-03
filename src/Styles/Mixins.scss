@@ -1,10 +1,11 @@
 
-@mixin reset-list {
+@mixin resetList {
     margin: 0;
     padding: 0;
     list-style: none;
+    background-color: purple;
 }
 
-@mixin reset-a{
+@mixin resetA{
     text-decoration: none;
 }

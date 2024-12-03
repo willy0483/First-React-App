@@ -1,8 +1,3 @@
-@use './Components/Header/Header.module.scss' as header;
-@use './Components/Main/Main.module.scss' as main;
-@use './Components/Footer/Footer.module.scss' as footer;
-
-@use './Components/Navbar/Navbar.module.scss' as navbar;
 
 @use './Styles/Variables' as var;
 @use './Styles/Mixins' as mix;
@@ -20,21 +15,18 @@ body{
 h1{
     font-size: 2.5rem;
     color: #fff;
-    text-align: center;
     margin-top: 2rem;
 }
 
 h2{
     font-size: 2rem;
     color: #fff;
-    text-align: center;
     margin-top: 2rem;
 }   
 
 h3{
     font-size: 1.5rem;
     color: #fff;
-    text-align: center;
     margin-top: 2rem;
 }
 

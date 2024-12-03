@@ -1,11 +1,13 @@
 import NavbarComponent from "../navbar/navbar";
+import { HeaderStyled } from "../Header/Header.styled";
+
 
 const HeaderComponent  = () =>{
     return(
-        <header className="headerStyle">     
-            <h1 className="headerTitleStyle">Header</h1>
+        <HeaderStyled>     
+            <h1>Header</h1>
             <NavbarComponent/>   
-        </header>
+        </HeaderStyled>
     )
 }
 
