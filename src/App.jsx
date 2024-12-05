@@ -1,26 +1,31 @@
-import './App.scss'
+import "./App.scss";
 
-import HeaderComponent from './Components/header/header'
-import FooterComponent from './Components/footer/footer'
+import HeaderComponent from "./Components/header/header";
+import FooterComponent from "./Components/footer/footer";
 
-import { Button } from './Components/Button/Button'
-import { FavoriteFoods } from './Components/Favoritefoods/FavoriteFoods'
+import { Main } from "./Main/Main";
+
+import { Container } from "./Components/Container/Container";
+
+import { Button } from "./Components/Button/Button";
+import { FavoriteFoods } from "./Components/Favoritefoods/FavoriteFoods";
 
 function App() {
   return (
-    <>
-    <HeaderComponent/>
-    <main>
-    <Button textValue="Alice" />
-    <Button textValue="Bob" />
-    <Button textValue="Charlie" />
+    <Container width={"100%"}>
+      <HeaderComponent />
+      <Main>
+        <Button textValue="Alice" />
+        <Button textValue="Bob" />
+        <Button textValue="Charlie" />
 
-    <FavoriteFoods foods={["Pizza", "Sushi", "Ice Cream", "Pasta", "Burgers"]} />
-
-    </main>
-    <FooterComponent/>
-    </>
-  )
+        <FavoriteFoods
+          foods={["Pizza", "Sushi", "Ice Cream", "Pasta", "Burgers"]}
+        />
+      </Main>
+      <FooterComponent />
+    </Container>
+  );
 }
 
-export default App
+export default App;
